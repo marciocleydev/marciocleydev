@@ -17,6 +17,7 @@ I also volunteered as a firefighter, which reinforced my discipline, focus, and 
 I'm seeking opportunities to apply my technical knowledge and grow as a developer, contributing efficient, secure, and innovative solutions.
 ---
 
+
 ## 🚀 Technologies and Tools
 
 ### Languages and Frameworks 
@@ -25,8 +26,8 @@ I'm seeking opportunities to apply my technical knowledge and grow as a develope
 ![HTML5](https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Database
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### IDEs  
