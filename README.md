@@ -47,9 +47,12 @@ Estou em busca de oportunidades para aplicar meus conhecimentos técnicos e cres
 
 ## 🟩 Atividades Recentes no GitHub
 
-<p align="center">
-  <img src="https://github.com/marciocleydev/marciocleydev/raw/output/github-contribution-grid-snake.svg" alt="snake eating my contributions">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake animation" src="dist/github-contribution-grid-snake.svg" />
+</picture>
+
 
 ---
 
