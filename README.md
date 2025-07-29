@@ -1,33 +1,31 @@
-<h1 align="center">👋 Olá, eu sou o Marcio Cley!</h1>
-
 <p align="center">
-Estudante de Análise e Desenvolvimento de Sistemas | Futuro Dev Java com Spring Boot 💻🚀
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=BA55D3&center=true&vCenter=true&width=1000&lines=👋+Hi%2C+I'm+Marcio+Cley!;Java+Developer+in+training.;Spring+Boot+lover+%F0%9F%9A%80;Welcome+to+my+GitHub+profile!" alt="Typing SVG" />
 </p>
 
----
-
-## 👨‍💻 Sobre Mim
-
-Sou estudante do último semestre de Análise e Desenvolvimento de Sistemas, com transição de carreira da indústria para o universo da programação. Tenho sólida base em Java, HTML, CSS, JavaScript, Git, GitHub e MySQL, e atualmente estou me aprofundando em **Spring Boot**.
-
-Durante quase 9 anos na área industrial, desenvolvi habilidades em liderança, resolução de problemas, tomada de decisão e trabalho sob pressão — competências que agora aplico na minha formação como desenvolvedor.
-
-Também fui bombeiro voluntário, o que reforçou minha disciplina, foco e comprometimento com o trabalho em equipe.
-
-Estou em busca de oportunidades para aplicar meus conhecimentos técnicos e crescer como desenvolvedor, contribuindo com soluções eficientes, seguras e inovadoras.
 
 ---
 
-## 🚀 Tecnologias e Ferramentas
+## 👨‍💻 About Me
 
-### Linguagens & Frameworks  
+I'm a final-semester Systems Analysis and Development student transitioning from industry to programming. I have a solid foundation in Java, HTML, CSS, JavaScript, Git, GitHub, and MySQL, and I'm currently delving deeper into Spring Boot.
+
+During nearly 9 years in the industrial field, I developed skills in leadership, problem-solving, decision-making, and working under pressure—skills I now apply to my development career.
+
+I also volunteered as a firefighter, which reinforced my discipline, focus, and commitment to teamwork.
+
+I'm seeking opportunities to apply my technical knowledge and grow as a developer, contributing efficient, secure, and innovative solutions.
+---
+
+## 🚀 Technologies and Tools
+
+### Languages and Frameworks 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Banco de Dados  
+### Database
 ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### IDEs  
@@ -37,7 +35,7 @@ Estou em busca de oportunidades para aplicar meus conhecimentos técnicos e cres
 
 ---
 
-## 📫 Conecte-se Comigo
+## 📫 Connect With Me
 
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marciocleydev@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marciocleydev/)
@@ -45,7 +43,7 @@ Estou em busca de oportunidades para aplicar meus conhecimentos técnicos e cres
 
 ---
 
-## 🟩 Atividades Recentes no GitHub
+## 🟩 Recent Activity on GitHub
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dist/github-contribution-grid-snake.svg" />
@@ -65,4 +63,4 @@ Estou em busca de oportunidades para aplicar meus conhecimentos técnicos e cres
 
 ---
 
-📈 _"Sempre evoluindo, com propósito e paixão pela tecnologia!"_
+📈 _"Always evolving, with purpose and passion for technology!"_
