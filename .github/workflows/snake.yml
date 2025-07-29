@@ -19,8 +19,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: marciocleydev
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+          outputs:   dist/github-contribution-grid-snake.svg?color_snake=#00FF7F&color_dots=#0D0D0D,#1A1A1A,#00FF7F,#FFFFFF
 
       - name: Commit e push da animação
         uses: EndBug/add-and-commit@v9
