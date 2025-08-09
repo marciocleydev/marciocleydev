@@ -61,4 +61,4 @@ I'm seeking opportunities to apply my technical knowledge and grow as a develope
 
 ---
 
-📈 _"Always evolving, with purpose and passion for technology!"_-
+📈 _"Always evolving, with purpose and passion for technology!"_
