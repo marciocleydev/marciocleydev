@@ -60,7 +60,7 @@ I'm seeking opportunities to apply my technical knowledge and grow as a develope
 
 ## 📂 Featured Projects
 
-- [**Workshop Spring Boot JPA/Hibernate**](https://github.com/marciocleydev/workshop_springBoot_jpa) — REST API developed in Java using Spring Boot, JPA/Hibernate, and H2/MySQL databases. Implements CRUD operations, entity relationships, exception handling, and layered architecture.
+- [**Workshop Spring Boot JPA/Hibernate/MySQL**](https://github.com/marciocleydev/workshop_springBoot_jpa_2.0) — REST API developed in Java using Spring Boot, JPA/Hibernate, and H2/MySQL databases. Implements CRUD operations, entity relationships, exception handling, and layered architecture.
 
 ---
 
