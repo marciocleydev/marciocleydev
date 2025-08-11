@@ -6,15 +6,13 @@
 
 ## 👨‍💻 About Me
 
-I'm a final-semester **Systems Analysis and Development** student transitioning from industry to programming.  
-I have a solid foundation in **Java, Spring Boot, JPA/Hibernate, HTML, CSS, JavaScript, Git, GitHub, MySQL, H2 Database, Maven, and Postman**.  
-Currently, I’m deepening my knowledge in **Spring Boot**, focusing on **RESTful APIs**, **CRUD operations**, **entity relationships**, and **exception handling**.
+I am a final-semester Systems Analysis and Development student transitioning from industry to software development, with a strong focus on back-end development using Java and the Spring ecosystem.
 
-During nearly 9 years in the industrial field, I developed skills in leadership, problem-solving, decision-making, and working under pressure—skills I now apply to my development career.
+I have solid knowledge of Java, Spring Boot, JPA/Hibernate, MySQL, H2 Database, Maven, and Postman, as well as basic skills in HTML, CSS, and JavaScript. My main expertise is in building RESTful APIs, implementing CRUD operations, designing entity relationships, and handling exceptions following best practices and clean architecture principles.
 
-I also volunteered as a firefighter, which reinforced my discipline, focus, and commitment to teamwork.
+I am currently specializing in microservices architecture, including advanced topics such as Spring Cloud, Spring Security, API Gateway, service communication patterns, and cloud deployment — aiming to deliver scalable, maintainable, and resilient solutions.
 
-I'm seeking opportunities to apply my technical knowledge and grow as a developer, contributing efficient, secure, and innovative solutions.
+I am seeking opportunities to contribute as a Java Back-End Developer, building efficient, secure, and scalable solutions while continuing to grow professionally within the Spring Boot and microservices ecosystem.
 
 ---
 
@@ -49,12 +47,14 @@ I'm seeking opportunities to apply my technical knowledge and grow as a develope
 ---
 
 ## 📚 Currently Learning
-
-- Microservices with Spring Boot
-- Spring Security & JWT Authentication
-- Docker basics for Java applications
-- Automated Testing (JUnit / Mockito)
+- Microservices architecture with Spring Boot & Spring Cloud
+- Service communication patterns (REST, Feign, messaging)
+- Spring Security with JWT for authentication & authorization
+- API Gateway & Load Balancing
+- Docker for containerized Java applications
+- Automated Testing (JUnit, Mockito)
 - API documentation with Swagger / OpenAPI
+- Cloud deployment strategies for microservices
 
 ---
 
