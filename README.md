@@ -62,13 +62,15 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 
 - [**Workshop Spring Boot JPA/Hibernate/MySQL**](https://github.com/marciocleydev/workshop_springBoot_jpa_2.0) — REST API developed in Java using Spring Boot, JPA/Hibernate, and H2/MySQL databases. Implements CRUD operations, entity relationships, exception handling, and layered architecture.
 
+*📌 Explore more projects in my [repositories](https://github.com/marciocleydev?tab=repositories)*
+
 ---
 
 ## 📫 Connect With Me
 
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marciocleydev@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marciocleydev/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=github&logoColor=white)](https://marciocleydev.github.io/.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=github&logoColor=white)](https://marciocleydev.github.io/)
 
 ---
 
