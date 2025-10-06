@@ -89,4 +89,4 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 
 ---
 
-📈 _"Always evolving, with purpose and passion for technology!"_-
+📈 _"Always evolving, with purpose and passion for technology!"_
