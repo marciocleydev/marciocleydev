@@ -4,7 +4,7 @@ import { get } from 'https';
 // CONFIGURAÇÕES - MUDE AQUI PARA PERSONALIZAR
 const CONFIG = {
   username: 'marciocleydev',
-  theme: 'rocket', // 'snake', 'rocket', 'pacman', 'dinosaur' - MUDE AQUI!
+  theme: 'rocket', // 'snake', 'rocket', 'pacman', 'dinosaur'
   colors: {
     background: '#ebedf0',
     grid: ['#9be9a8', '#40c463', '#30a14e', '#216e39'],
@@ -19,7 +19,147 @@ const CONFIG = {
   }
 };
 
-// ... (mantenha as funções getGitHubData, generateSampleData, etc.)
+// Buscar dados reais do GitHub
+async function getGitHubData() {
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: 'api.github.com',
+      path: `/users/${CONFIG.username}/events`,
+      headers: {
+        'User-Agent': 'Node.js-Snake-Generator'
+      }
+    };
+
+    get(options, (res) => {
+      let data = '';
+      res.on('data', (chunk) => data += chunk);
+      res.on('end', () => {
+        try {
+          const events = JSON.parse(data);
+          resolve(events);
+        } catch (e) {
+          // Fallback para dados de exemplo se a API falhar
+          resolve(generateSampleData());
+        }
+      });
+    }).on('error', () => {
+      resolve(generateSampleData());
+    });
+  });
+}
+
+function generateSampleData() {
+  // Gera dados de exemplo baseados em padrões
+  const events = [];
+  const today = new Date();
+  
+  for (let i = 0; i < 100; i++) {
+    const date = new Date(today);
+    date.setDate(date.getDate() - i);
+    
+    if (Math.random() > 0.3) { // 70% de chance de ter atividade
+      events.push({
+        created_at: date.toISOString(),
+        type: 'PushEvent'
+      });
+    }
+  }
+  
+  return events;
+}
+
+function generateGrid(contributionsData) {
+  let gridHTML = '';
+  const cellSize = 12;
+  const spacing = 16;
+  
+  // Gerar grid 7x52 (semanas x dias)
+  for (let week = 0; week < 52; week++) {
+    for (let day = 0; day < 7; day++) {
+      const x = week * spacing;
+      const y = day * spacing;
+      
+      // Determinar nível de contribuição baseado nos dados
+      const contribLevel = calculateContributionLevel(week, day, contributionsData);
+      const contribClass = contribLevel > 0 ? `contrib-${contribLevel}` : '';
+      
+      gridHTML += `
+        <rect class="grid-cell ${contribClass}" 
+              x="${x}" y="${y}" 
+              width="${cellSize}" height="${cellSize}"/>
+      `;
+    }
+  }
+  
+  return gridHTML;
+}
+
+function calculateContributionLevel(week, day, events) {
+  // Lógica simplificada para determinar nível de contribuição
+  const today = new Date();
+  const targetDate = new Date(today);
+  targetDate.setDate(targetDate.getDate() - (week * 7 + day));
+  
+  const dayEvents = events.filter(event => {
+    const eventDate = new Date(event.created_at);
+    return eventDate.toDateString() === targetDate.toDateString();
+  });
+  
+  const eventCount = dayEvents.length;
+  
+  if (eventCount === 0) return 0;
+  if (eventCount <= 2) return 1;
+  if (eventCount <= 4) return 2;
+  if (eventCount <= 6) return 3;
+  return 4;
+}
+
+// GERADORES DE PERSONAGENS
+function generateSnake() {
+  return `
+    <rect x="30" y="30" width="16" height="16" rx="4" ry="4" class="pulse"/>
+    <rect x="20" y="32" width="12" height="12" rx="3" ry="3" opacity="0.8"/>
+    <rect x="10" y="34" width="10" height="10" rx="2" ry="2" opacity="0.6"/>
+    <circle cx="38" cy="38" r="2" fill="white"/>
+  `;
+}
+
+function generateRocket() {
+  return `
+    <path d="M35,35 L45,30 L35,25 Z" class="pulse"/>
+    <rect x="33" y="28" width="4" height="4" rx="1" ry="1" fill="white" opacity="0.8"/>
+    <circle cx="35" cy="30" r="1" fill="white"/>
+    <path d="M25,30 L35,28 L35,32 Z" fill="${CONFIG.colors.rocket}" opacity="0.7"/>
+    <!-- Chamas -->
+    <path d="M25,28 L20,25 L25,22 Z" fill="#ffa726" opacity="0.8"/>
+    <path d="M25,32 L20,35 L25,38 Z" fill="#ffa726" opacity="0.8"/>
+  `;
+}
+
+function generatePacman() {
+  return `
+    <circle cx="35" cy="30" r="10" fill="${CONFIG.colors.pacman}" class="pulse"/>
+    <!-- Boca -->
+    <path d="M35,30 L45,20 L45,40 Z" fill="black"/>
+    <!-- Olho -->
+    <circle cx="38" cy="25" r="1.5" fill="black"/>
+  `;
+}
+
+function generateDinosaur() {
+  return `
+    <!-- Corpo -->
+    <rect x="30" y="25" width="14" height="10" rx="3" ry="3" class="pulse"/>
+    <!-- Pernas -->
+    <rect x="28" y="35" width="6" height="12" rx="2" ry="2"/>
+    <rect x="40" y="35" width="6" height="12" rx="2" ry="2"/>
+    <!-- Pescoço e cabeça -->
+    <rect x="38" y="18" width="8" height="10" rx="2" ry="2"/>
+    <rect x="44" y="15" width="6" height="6" rx="2" ry="2"/>
+    <!-- Olho -->
+    <circle cx="47" cy="18" r="1" fill="white"/>
+  `;
+}
 
 function generateSnakeSVG(contributionsData) {
   const { theme, colors, animation } = CONFIG;
@@ -102,55 +242,6 @@ function generateSnakeSVG(contributionsData) {
 </svg>
   `;
 }
-
-// GERADORES DE PERSONAGENS - CORRIGIDOS
-function generateSnake() {
-  return `
-    <rect x="30" y="30" width="16" height="16" rx="4" ry="4" class="pulse"/>
-    <rect x="20" y="32" width="12" height="12" rx="3" ry="3" opacity="0.8"/>
-    <rect x="10" y="34" width="10" height="10" rx="2" ry="2" opacity="0.6"/>
-    <circle cx="38" cy="38" r="2" fill="white"/>
-  `;
-}
-
-function generateRocket() {
-  return `
-    <path d="M35,35 L45,30 L35,25 Z" class="pulse"/>
-    <rect x="33" y="28" width="4" height="4" rx="1" ry="1" fill="white" opacity="0.8"/>
-    <circle cx="35" cy="30" r="1" fill="white"/>
-    <path d="M25,30 L35,28 L35,32 Z" fill="${CONFIG.colors.rocket}" opacity="0.7"/>
-    <!-- Chamas -->
-    <path d="M25,28 L20,25 L25,22 Z" fill="#ffa726" opacity="0.8"/>
-    <path d="M25,32 L20,35 L25,38 Z" fill="#ffa726" opacity="0.8"/>
-  `;
-}
-
-function generatePacman() {
-  return `
-    <circle cx="35" cy="30" r="10" fill="${CONFIG.colors.pacman}" class="pulse"/>
-    <!-- Boca -->
-    <path d="M35,30 L45,20 L45,40 Z" fill="black"/>
-    <!-- Olho -->
-    <circle cx="38" cy="25" r="1.5" fill="black"/>
-  `;
-}
-
-function generateDinosaur() {
-  return `
-    <!-- Corpo -->
-    <rect x="30" y="25" width="14" height="10" rx="3" ry="3" class="pulse"/>
-    <!-- Pernas -->
-    <rect x="28" y="35" width="6" height="12" rx="2" ry="2"/>
-    <rect x="40" y="35" width="6" height="12" rx="2" ry="2"/>
-    <!-- Pescoço e cabeça -->
-    <rect x="38" y="18" width="8" height="10" rx="2" ry="2"/>
-    <rect x="44" y="15" width="6" height="6" rx="2" ry="2"/>
-    <!-- Olho -->
-    <circle cx="47" cy="18" r="1" fill="white"/>
-  `;
-}
-
-// ... (mantenha as funções generateGrid, calculateContributionLevel, etc.)
 
 // EXECUÇÃO PRINCIPAL
 async function main() {
