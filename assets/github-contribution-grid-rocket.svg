@@ -14,14 +14,17 @@
     </style>
   </defs>
   
+  <!-- Background suave -->
+  <rect width="100%" height="100%" fill="#f6f8fa"/>
+  
   <!-- Grid de Contribuições -->
   <g transform="translate(20, 20)">
     
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="0" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="0" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -29,7 +32,7 @@
               x="0" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="0" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -41,59 +44,59 @@
               x="0" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="0" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="13" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="13" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="13" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="13" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="13" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="13" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="13" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="26" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="26" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="26" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="26" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="26" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="26" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -101,7 +104,7 @@
               x="26" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="39" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -109,47 +112,47 @@
               x="39" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="39" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="39" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="39" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="39" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="39" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="52" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="52" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="52" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="52" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="52" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="52" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -157,15 +160,15 @@
               x="52" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="65" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="65" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-3" 
               x="65" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -173,15 +176,15 @@
               x="65" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="65" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="65" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="65" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -193,15 +196,15 @@
               x="78" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="78" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="78" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="78" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -209,35 +212,35 @@
               x="78" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="78" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="91" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="91" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="91" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="91" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="91" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="91" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="91" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -245,7 +248,7 @@
               x="104" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="104" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -253,7 +256,7 @@
               x="104" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="104" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -261,71 +264,71 @@
               x="104" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="104" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="104" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="117" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="117" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="117" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="117" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="117" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="117" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="117" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="130" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="130" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="130" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="130" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="130" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="130" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="130" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-2" 
               x="143" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -333,7 +336,7 @@
               x="143" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="143" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -341,19 +344,19 @@
               x="143" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="143" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="143" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-3" 
               x="143" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="156" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -361,15 +364,15 @@
               x="156" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="156" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="156" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="156" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -377,55 +380,55 @@
               x="156" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="156" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="169" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="169" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="169" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="169" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="169" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="169" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="169" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-1" 
               x="182" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="182" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="182" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="182" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="182" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -433,59 +436,59 @@
               x="182" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="182" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="195" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="195" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="195" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="195" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="195" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="195" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="195" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="208" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="208" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="208" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="208" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="208" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="208" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -493,19 +496,19 @@
               x="208" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="221" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="221" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="221" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="221" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -513,11 +516,11 @@
               x="221" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="221" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="221" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -525,7 +528,7 @@
               x="234" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="234" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -533,11 +536,11 @@
               x="234" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="234" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="234" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -545,39 +548,39 @@
               x="234" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="234" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="247" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="247" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="247" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="247" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="247" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="247" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="247" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="260" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -589,47 +592,47 @@
               x="260" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="260" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="260" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="260" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="260" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="273" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="273" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="273" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="273" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-1" 
               x="273" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="273" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="273" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -637,11 +640,11 @@
               x="286" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-1" 
               x="286" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="286" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -653,47 +656,47 @@
               x="286" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="286" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="286" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="299" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="299" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="299" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="299" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="299" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="299" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="299" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="312" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="312" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -701,7 +704,7 @@
               x="312" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="312" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -713,11 +716,11 @@
               x="312" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="312" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="325" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -725,55 +728,55 @@
               x="325" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="325" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="325" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="325" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="325" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="325" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="338" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="338" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="338" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="338" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="338" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="338" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="338" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-3" 
               x="351" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -781,11 +784,11 @@
               x="351" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="351" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-3" 
               x="351" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -793,59 +796,59 @@
               x="351" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="351" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="351" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="364" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="364" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="364" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="364" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="364" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="364" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="364" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="377" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="377" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="377" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="377" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="377" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -853,19 +856,19 @@
               x="377" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="377" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="390" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="390" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="390" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -873,7 +876,7 @@
               x="390" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="390" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -881,23 +884,23 @@
               x="390" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="390" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="403" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="403" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="403" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="403" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -905,15 +908,15 @@
               x="403" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="403" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="403" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="416" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -921,11 +924,11 @@
               x="416" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="416" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="416" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -933,7 +936,7 @@
               x="416" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="416" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -941,19 +944,19 @@
               x="416" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="429" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="429" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="429" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="429" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -961,27 +964,27 @@
               x="429" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="429" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="429" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="442" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="442" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-4" 
               x="442" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="442" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -989,31 +992,31 @@
               x="442" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="442" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="442" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="455" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="455" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="455" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="455" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="455" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1021,15 +1024,15 @@
               x="455" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="455" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="468" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="468" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1037,7 +1040,7 @@
               x="468" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-2" 
               x="468" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1045,15 +1048,15 @@
               x="468" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="468" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="468" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="481" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1061,19 +1064,19 @@
               x="481" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="481" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="481" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="481" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="481" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1081,11 +1084,11 @@
               x="481" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="494" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="494" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1093,7 +1096,7 @@
               x="494" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="494" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1101,7 +1104,7 @@
               x="494" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="494" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1109,11 +1112,11 @@
               x="494" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="507" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="507" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1121,7 +1124,7 @@
               x="507" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-1" 
               x="507" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1129,11 +1132,11 @@
               x="507" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="507" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="507" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1141,11 +1144,11 @@
               x="520" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="520" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="520" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1153,7 +1156,7 @@
               x="520" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="520" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1161,15 +1164,15 @@
               x="520" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="520" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="533" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="533" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1177,19 +1180,19 @@
               x="533" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="533" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="533" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="533" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="533" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1197,11 +1200,11 @@
               x="546" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="546" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="546" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1209,27 +1212,27 @@
               x="546" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="546" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="546" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="546" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="559" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="559" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="559" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1237,27 +1240,27 @@
               x="559" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="559" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="559" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="559" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-3" 
               x="572" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-1" 
               x="572" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="572" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1265,31 +1268,31 @@
               x="572" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="572" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="572" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="572" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="585" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="585" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="585" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell " 
               x="585" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1297,31 +1300,31 @@
               x="585" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="585" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="585" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="598" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="598" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="598" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="598" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="598" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1329,19 +1332,19 @@
               x="598" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="598" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="611" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="611" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-3" 
               x="611" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1349,11 +1352,11 @@
               x="611" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="611" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="611" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1361,51 +1364,51 @@
               x="611" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-1" 
               x="624" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="624" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-1" 
               x="624" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="624" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="624" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-3" 
               x="624" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="624" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="637" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="637" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-1" 
               x="637" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-2" 
               x="637" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="637" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1413,11 +1416,11 @@
               x="637" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="637" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="650" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1425,47 +1428,47 @@
               x="650" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="650" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-3" 
+        <rect class="grid-cell contrib-4" 
               x="650" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell contrib-2" 
               x="650" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="650" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="650" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="663" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="663" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell contrib-4" 
               x="663" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="663" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="663" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell " 
               x="663" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1473,11 +1476,11 @@
               x="663" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="676" y="0" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-4" 
+        <rect class="grid-cell contrib-2" 
               x="676" y="13" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1485,7 +1488,7 @@
               x="676" y="26" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-4" 
               x="676" y="39" 
               width="11" height="11" rx="2" ry="2"/>
       
@@ -1493,64 +1496,46 @@
               x="676" y="52" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell contrib-2" 
+        <rect class="grid-cell " 
               x="676" y="65" 
               width="11" height="11" rx="2" ry="2"/>
       
-        <rect class="grid-cell " 
+        <rect class="grid-cell contrib-1" 
               x="676" y="78" 
               width="11" height="11" rx="2" ry="2"/>
       
   </g>
   
-  <!-- Personagem com Animação SMIL -->
+  <!-- Personagem Estático -->
   
-    <!-- Rocket com animação SMIL -->
-    <g>
-      <animateTransform 
-        attributeName="transform" 
-        type="translate" 
-        values="50,45; 300,20; 600,70; 400,120; 200,80; 50,45" 
-        dur="25s" 
-        repeatCount="indefinite"
-      />
-      <animateTransform 
-        attributeName="transform" 
-        type="rotate" 
-        values="0; 45; 90; 135; 180; 225; 270; 315; 360" 
-        dur="10s" 
-        repeatCount="indefinite"
-        additive="sum"
-      />
-      <path d="M0,5 L10,0 L0,-5 Z" fill="#ff6b6b"/>
-      <circle cx="3" cy="0" r="2" fill="#87CEEB"/>
-      <path d="M0,-2 L-5,-4 L0,-6 Z" fill="#ff6b6b" opacity="0.8"/>
-      <path d="M0,2 L-5,4 L0,6 Z" fill="#ff6b6b" opacity="0.8"/>
-      <!-- Chamas animadas -->
-      <g>
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="0.5s" repeatCount="indefinite"/>
-        <path d="M-5,0 L-15,-3 L-5,-6 Z" fill="#FFA500"/>
-        <path d="M-5,0 L-15,3 L-5,6 Z" fill="#FF4500"/>
+    <!-- Rocket estático -->
+    <g transform="translate(500, 60)">
+      <path d="M0,8 L12,0 L0,-8 Z" fill="#ff6b6b"/>
+      <circle cx="4" cy="0" r="2.5" fill="#87CEEB"/>
+      <path d="M0,-3 L-6,-6 L0,-9 Z" fill="#ff6b6b" opacity="0.8"/>
+      <path d="M0,3 L-6,6 L0,9 Z" fill="#ff6b6b" opacity="0.8"/>
+      <!-- Chamas -->
+      <g opacity="0.9">
+        <path d="M-6,0 L-18,-5 L-6,-10 Z" fill="#FFA500"/>
+        <path d="M-6,0 L-18,5 L-6,10 Z" fill="#FF4500"/>
       </g>
+    </g>
+    
+    <!-- Estrelas no caminho -->
+    <g fill="#FFD700" opacity="0.7">
+      <circle cx="450" cy="40" r="1"/>
+      <circle cx="380" cy="70" r="1.2"/>
+      <circle cx="550" cy="30" r="1"/>
+      <circle cx="600" cy="80" r="1.5"/>
+      <circle cx="320" cy="20" r="1"/>
     </g>
   
   
-  <!-- Texto informativo -->
-  <text x="440" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">
-    @marciocleydev • Rocket Theme • Animated
-  </text>
-  
-  <!-- Efeitos de partículas -->
-  <g opacity="0.6">
-    <circle cx="100" cy="50" r="1.5" fill="#ff6b6b">
-      <animate attributeName="cy" values="50;30;50" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="700" cy="120" r="1" fill="#ff6b6b">
-      <animate attributeName="cx" values="700;720;700" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="300" cy="80" r="1.2" fill="#ff6b6b">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Informações -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#586069">
+    <text x="20" y="170" font-weight="bold">@marciocleydev</text>
+    <text x="440" y="170" text-anchor="middle">GitHub Contributions - Rocket Theme</text>
+    <text x="860" y="170" text-anchor="end">2025</text>
   </g>
 </svg>
   
