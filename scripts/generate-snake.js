@@ -4,7 +4,7 @@ import { get } from 'https';
 // CONFIGURAÇÕES - MUDE AQUI PARA PERSONALIZAR
 const CONFIG = {
   username: 'marciocleydev',
-  theme: 'pacman', // 'snake', 'rocket', 'pacman', 'dinosaur'
+  theme: 'rocket', // 'snake', 'rocket', 'pacman', 'dinosaur'
   colors: {
     background: '#ebedf0',
     grid: ['#9be9a8', '#40c463', '#30a14e', '#216e39'],
