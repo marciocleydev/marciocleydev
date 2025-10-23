@@ -1,4 +1,4 @@
-name: Generate Advanced Snake Animation
+name: Generate Advanced Snake Animation 2
 
 permissions:
   contents: write
@@ -7,8 +7,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  push:
-    branches: [ main ]
 
 jobs:
   generate:
@@ -24,11 +22,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
 
       - name: Generate Snake Animation
-        run: |
-          node scripts/generate-snake.js
+        run: node scripts/generate-snake.js
 
       - name: Deploy to Repository
         run: |
