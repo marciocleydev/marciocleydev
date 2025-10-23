@@ -1,5 +1,5 @@
-const fs = require('fs');
-const https = require('https');
+import { writeFileSync } from 'fs';
+import { get } from 'https';
 
 // CONFIGURAÇÕES - MUDE AQUI PARA PERSONALIZAR
 const CONFIG = {
@@ -30,7 +30,7 @@ async function getGitHubData() {
       }
     };
 
-    https.get(options, (res) => {
+    get(options, (res) => {
       let data = '';
       res.on('data', (chunk) => data += chunk);
       res.on('end', () => {
@@ -73,30 +73,25 @@ function generateSnakeSVG(contributionsData) {
   const primaryColor = colors[theme] || colors.snake;
   
   let characterSVG = '';
-  let animationPath = '';
 
   switch (theme) {
     case 'rocket':
       characterSVG = generateRocket();
-      animationPath = generateRocketPath();
       break;
     case 'pacman':
       characterSVG = generatePacman();
-      animationPath = generatePacmanPath();
       break;
     case 'dinosaur':
       characterSVG = generateDinosaur();
-      animationPath = generateDinosaurPath();
       break;
     default: // snake
       characterSVG = generateSnake();
-      animationPath = generateSnakePath();
   }
 
   const gridSVG = generateGrid(contributionsData);
   
   return `
-<svg width="880" height="185" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="880" height="185" xmlns="http://www.w3.org/2000/svg">
   <style>
     .grid-cell { 
       fill: ${colors.background}; 
@@ -236,23 +231,6 @@ function generateDinosaur() {
   `;
 }
 
-// PATHS DE ANIMAÇÃO
-function generateSnakePath() {
-  return "M30,30 C100,30 150,80 200,30 C250,-20 300,80 350,30 C400,-20 450,80 500,30";
-}
-
-function generateRocketPath() {
-  return "M35,35 C100,10 200,50 300,20 C400,-10 500,60 600,30";
-}
-
-function generatePacmanPath() {
-  return "M35,30 C100,50 150,10 250,40 C350,70 450,20 550,50";
-}
-
-function generateDinosaurPath() {
-  return "M30,25 C80,40 120,15 180,35 C240,55 300,20 360,40";
-}
-
 // EXECUÇÃO PRINCIPAL
 async function main() {
   try {
@@ -263,7 +241,7 @@ async function main() {
     const svgContent = generateSnakeSVG(githubData);
     
     console.log('💾 Salvando arquivo...');
-    fs.writeFileSync('assets/github-contribution-grid-snake.svg', svgContent);
+    writeFileSync('assets/github-contribution-grid-snake.svg', svgContent);
     
     console.log('✅ Animação gerada com sucesso!');
     console.log(`🎯 Tema: ${CONFIG.theme}`);
@@ -275,4 +253,5 @@ async function main() {
   }
 }
 
+// Executar o script
 main();
