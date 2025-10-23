@@ -72,6 +72,9 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marciocleydev/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=github&logoColor=white)](https://marciocleydev.github.io/)
 
+## snake
+
+![Snake Animation](https://raw.githubusercontent.com/marciocleydev/marciocleydev/main/assets/github-contribution-grid-rocket.svg)
 ---
 ## 🟩 Recent Activity on GitHub
 
