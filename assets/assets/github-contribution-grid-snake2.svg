@@ -1,0 +1,104 @@
+<svg viewBox="-16 -32 880 192" width="880" height="192" xmlns="http://www.w3.org/2000/svg">
+<style>
+:root {
+  --cb: #1b1f23;
+  --cs: purple;
+  --ce: #ebedf0;
+  --c0: #ebedf0;
+  --c1: #9be9a8;
+  --c2: #40c463;
+  --c3: #30a14e;
+  --c4: #216e39;
+}
+
+.c {
+  shape-rendering: geometricPrecision;
+  fill: var(--ce);
+  stroke-width: 1px;
+  stroke: var(--cb);
+  width: 12px;
+  height: 12px;
+  rx: 2;
+  ry: 2;
+}
+
+/* Animações simplificadas para as células */
+.c.animated {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Snake animation simplificada */
+.snake {
+  fill: var(--cs);
+  animation: moveSnake 10s linear infinite;
+}
+
+@keyframes moveSnake {
+  0% { transform: translate(0px, 0px); }
+  25% { transform: translate(200px, 50px); }
+  50% { transform: translate(400px, 100px); }
+  75% { transform: translate(600px, 50px); }
+  100% { transform: translate(800px, 0px); }
+}
+
+/* Barra de progresso animada */
+.progress-bar {
+  fill: var(--c2);
+  animation: growBar 8s ease-in-out infinite;
+  transform-origin: left center;
+}
+
+@keyframes growBar {
+  0% { transform: scaleX(0); }
+  50% { transform: scaleX(1); }
+  100% { transform: scaleX(0); }
+}
+</style>
+
+<!-- Grid simplificado -->
+<g id="grid">
+  <!-- Primeiras linhas estáticas -->
+  <rect class="c" x="2" y="2"/>
+  <rect class="c" x="2" y="18"/>
+  <rect class="c" x="2" y="34"/>
+  <rect class="c" x="2" y="50"/>
+  <rect class="c" x="2" y="66"/>
+  <rect class="c" x="2" y="82"/>
+  <rect class="c" x="2" y="98"/>
+  
+  <rect class="c" x="18" y="2"/>
+  <rect class="c" x="18" y="18"/>
+  <rect class="c" x="18" y="34"/>
+  <rect class="c" x="18" y="50"/>
+  <rect class="c" x="18" y="66"/>
+  <rect class="c" x="18" y="82"/>
+  <rect class="c" x="18" y="98"/>
+  
+  <!-- Células animadas (exemplo) -->
+  <rect class="c animated" x="578" y="18" fill="var(--c3)"/>
+  <rect class="c animated" x="578" y="34" fill="var(--c4)"/>
+  <rect class="c animated" x="578" y="50" fill="var(--c3)"/>
+  <rect class="c animated" x="578" y="66" fill="var(--c2)"/>
+  <rect class="c animated" x="578" y="98" fill="var(--c1)"/>
+  
+  <rect class="c animated" x="594" y="2" fill="var(--c2)"/>
+  <rect class="c animated" x="594" y="82" fill="var(--c2)"/>
+  
+  <rect class="c animated" x="610" y="18" fill="var(--c2)"/>
+  <rect class="c animated" x="610" y="34" fill="var(--c1)"/>
+  
+  <!-- Adicione mais células conforme necessário -->
+</g>
+
+<!-- Barra de progresso animada -->
+<rect class="progress-bar" x="0" y="144" width="848" height="12" rx="2" ry="2"/>
+
+<!-- Snake animado -->
+<rect class="snake" x="0" y="0" width="16" height="16" rx="4" ry="4"/>
+
+</svg>
