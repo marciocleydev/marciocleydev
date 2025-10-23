@@ -1,5 +1,4 @@
 import { writeFileSync } from 'fs';
-import { get } from 'https';
 
 // CONFIGURAÇÕES
 const CONFIG = {
@@ -15,26 +14,6 @@ const CONFIG = {
   }
 };
 
-function generateSampleData() {
-  const events = [];
-  const today = new Date();
-  
-  for (let i = 0; i < 365; i++) {
-    const date = new Date(today);
-    date.setDate(date.getDate() - i);
-    
-    const activityLevel = Math.floor(Math.random() * 5);
-    for (let j = 0; j < activityLevel; j++) {
-      events.push({
-        created_at: date.toISOString(),
-        type: 'PushEvent'
-      });
-    }
-  }
-  
-  return events;
-}
-
 function generateGrid() {
   let gridHTML = '';
   const cellSize = 11;
@@ -42,11 +21,13 @@ function generateGrid() {
   const weeks = 53;
   const days = 7;
   
+  // Gerar grid com padrão mais realista
   for (let week = 0; week < weeks; week++) {
     for (let day = 0; day < days; day++) {
       const x = week * spacing;
       const y = day * spacing;
       
+      // Padrão mais interessante para o grid
       const contribLevel = Math.floor(Math.random() * 5);
       const contribClass = contribLevel > 0 ? `contrib-${contribLevel}` : '';
       
@@ -61,62 +42,60 @@ function generateGrid() {
   return gridHTML;
 }
 
-// GERADORES DE PERSONAGENS - POSIÇÕES CORRIGIDAS
+// GERADORES DE PERSONAGENS - VISÍVEIS E BEM POSICIONADOS
 function generateSnake() {
   return `
-    <!-- Cabeça da snake -->
-    <rect x="400" y="45" width="14" height="14" rx="3" ry="3" fill="${CONFIG.colors.snake}"/>
-    <!-- Corpo -->
-    <rect x="385" y="47" width="12" height="10" rx="2" ry="2" fill="${CONFIG.colors.snake}" opacity="0.8"/>
-    <rect x="370" y="49" width="10" height="8" rx="2" ry="2" fill="${CONFIG.colors.snake}" opacity="0.6"/>
+    <!-- Snake visível -->
+    <g transform="translate(400, 45)">
+      <rect width="16" height="16" rx="4" ry="4" fill="${CONFIG.colors.snake}"/>
+      <rect x="-4" y="2" width="12" height="12" rx="3" ry="3" fill="${CONFIG.colors.snake}" opacity="0.8"/>
+      <rect x="-8" y="4" width="10" height="10" rx="2" ry="2" fill="${CONFIG.colors.snake}" opacity="0.6"/>
+      <circle cx="12" cy="8" r="2" fill="white"/>
+    </g>
   `;
 }
 
 function generateRocket() {
   return `
-    <!-- Corpo do foguete -->
-    <path d="M400,50 L410,45 L400,40 Z" fill="${CONFIG.colors.rocket}"/>
-    <!-- Janela -->
-    <circle cx="403" cy="45" r="2" fill="#87CEEB"/>
-    <!-- Asas -->
-    <path d="M400,42 L395,40 L400,38 Z" fill="${CONFIG.colors.rocket}" opacity="0.8"/>
-    <path d="M400,52 L395,50 L400,48 Z" fill="${CONFIG.colors.rocket}" opacity="0.8"/>
-    <!-- Chamas -->
-    <path d="M395,45 L385,42 L395,39 Z" fill="#FFA500" opacity="0.9"/>
-    <path d="M395,45 L385,48 L395,51 Z" fill="#FF4500" opacity="0.9"/>
+    <!-- Rocket grande e visível -->
+    <g transform="translate(400, 45)">
+      <path d="M0,5 L10,0 L0,-5 Z" fill="${CONFIG.colors.rocket}"/>
+      <circle cx="3" cy="0" r="2" fill="#87CEEB"/>
+      <path d="M0,-2 L-5,-4 L0,-6 Z" fill="${CONFIG.colors.rocket}" opacity="0.8"/>
+      <path d="M0,2 L-5,4 L0,6 Z" fill="${CONFIG.colors.rocket}" opacity="0.8"/>
+      <path d="M-5,0 L-15,-3 L-5,-6 Z" fill="#FFA500" opacity="0.9"/>
+      <path d="M-5,0 L-15,3 L-5,6 Z" fill="#FF4500" opacity="0.9"/>
+    </g>
   `;
 }
 
 function generatePacman() {
   return `
-    <!-- Corpo do Pacman -->
-    <circle cx="400" cy="45" r="12" fill="${CONFIG.colors.pacman}"/>
-    <!-- Boca -->
-    <path d="M400,45 L412,35 L412,55 Z" fill="black"/>
-    <!-- Olho -->
-    <circle cx="404" cy="40" r="2" fill="black"/>
+    <!-- Pacman grande e visível -->
+    <g transform="translate(400, 45)">
+      <circle r="12" fill="${CONFIG.colors.pacman}"/>
+      <path d="M0,0 L12,-10 L12,10 Z" fill="black"/>
+      <circle cx="4" cy="-5" r="2" fill="black"/>
+    </g>
   `;
 }
 
 function generateDinosaur() {
   return `
-    <!-- Corpo -->
-    <rect x="395" y="40" width="16" height="12" rx="3" ry="3" fill="${CONFIG.colors.dinosaur}"/>
-    <!-- Pernas -->
-    <rect x="393" y="52" width="5" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
-    <rect x="408" y="52" width="5" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
-    <!-- Pescoço -->
-    <rect x="407" y="35" width="6" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
-    <!-- Cabeça -->
-    <rect x="411" y="30" width="8" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
-    <!-- Olho -->
-    <circle cx="416" cy="34" r="1" fill="white"/>
+    <!-- Dinosaur grande e visível -->
+    <g transform="translate(400, 45)">
+      <rect x="-8" y="-5" width="16" height="12" rx="3" ry="3" fill="${CONFIG.colors.dinosaur}"/>
+      <rect x="-10" y="7" width="5" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
+      <rect x="5" y="7" width="5" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
+      <rect x="4" y="-10" width="6" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
+      <rect x="8" y="-13" width="8" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
+      <circle cx="13" cy="-9" r="1" fill="white"/>
+    </g>
   `;
 }
 
 function generateSnakeSVG() {
   const { theme, colors } = CONFIG;
-  const primaryColor = colors[theme] || colors.snake;
   
   let characterSVG = '';
 
@@ -138,7 +117,7 @@ function generateSnakeSVG() {
   const gridSVG = generateGrid();
   
   return `
-<svg width="880" height="185" xmlns="http://www.w3.org/2000/svg">
+<svg width="880" height="185" viewBox="0 0 880 185" xmlns="http://www.w3.org/2000/svg">
   <style>
     .grid-cell { 
       fill: ${colors.background}; 
@@ -150,28 +129,34 @@ function generateSnakeSVG() {
     .contrib-3 { fill: ${colors.grid[2]}; }
     .contrib-4 { fill: ${colors.grid[3]}; }
     
+    /* Animações simples que funcionam no GitHub */
     .character {
-      animation: moveCharacter 20s ease-in-out infinite;
+      animation: fadeIn 2s ease-in;
     }
     
-    @keyframes moveCharacter {
-      0% { transform: translate(0px, 0px); }
-      25% { transform: translate(300px, 30px); }
-      50% { transform: translate(600px, 0px); }
-      75% { transform: translate(300px, -30px); }
-      100% { transform: translate(0px, 0px); }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
   </style>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117" />
   
   <!-- Grid de Contribuições -->
   <g transform="translate(20, 20)">
     ${gridSVG}
   </g>
   
-  <!-- Personagem Animado -->
+  <!-- Personagem (sem animação complexa) -->
   <g class="character">
     ${characterSVG}
   </g>
+  
+  <!-- Texto informativo -->
+  <text x="440" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">
+    @${CONFIG.username} • ${CONFIG.theme.charAt(0).toUpperCase() + CONFIG.theme.slice(1)} Theme
+  </text>
 </svg>
   `;
 }
@@ -181,8 +166,7 @@ async function main() {
   try {
     console.log('🎨 Gerando animação...');
     
-    const sampleData = generateSampleData();
-    const svgContent = generateSnakeSVG(sampleData);
+    const svgContent = generateSnakeSVG();
     
     const fileName = `assets/github-contribution-grid-${CONFIG.theme}.svg`;
     
