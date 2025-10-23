@@ -73,7 +73,11 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 [![Portfolio](https://img.shields.io/badge/Portfolio-12100E?style=for-the-badge&logo=github&logoColor=white)](https://marciocleydev.github.io/)
 
 ---
+## 🎮 GitHub Snake
 
+![Snake Animation](https://raw.githubusercontent.com/marciocleydev/marciocleydev/main/assets/github-contribution-grid-snake.svg)
+
+---
 ## 🟩 Recent Activity on GitHub
 
 ![Snake animation](https://github.com/marciocleydev/marciocleydev/blob/main/assets/github-contribution-grid-snake2.svg)
