@@ -74,7 +74,7 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 
 ## snake
 
-![GitHub Animation](https://raw.githubusercontent.com/marciocleydev/marciocleydev/main/assets/github-contribution-grid-rocket.svg?v=2)
+![GitHub Animation](https://raw.githubusercontent.com/marciocleydev/marciocleydev/main/assets/github-contribution-grid-rocket.svg?v=4)
 ---
 ## 🟩 Recent Activity on GitHub
 
