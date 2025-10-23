@@ -25,11 +25,11 @@ jobs:
 
       - name: Generate Snake Animation
         run: node scripts/generate-snake.js
-
+      
       - name: Deploy to Repository
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add assets/github-contribution-grid-snake.svg
-          git commit -m "chore: update snake animation" || exit 0
+          git add assets/github-contribution-grid-*.svg
+          git commit -m "chore: update ${{ github.event.repository.name }} animation" || exit 0
           git push
