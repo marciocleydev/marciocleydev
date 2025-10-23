@@ -19,18 +19,18 @@ jobs:
           fetch-depth: 0
 
       - name: Remover animação antiga
-        run: rm -f assets/github-contribution-grid-snake.svg || true
+        run: rm -f assets/github-contribution-grid-snake2.svg || true
 
       - name: Gerar animação da cobrinha
         uses: Platane/snk@v3
         with:
           github_user_name: marciocleydev
-          outputs: assets/github-contribution-grid-snake.svg
+          outputs: assets/github-contribution-grid-snake2.svg
 
       - name: Commit e push da animação
         uses: EndBug/add-and-commit@v9
         with:
           message: "chore: update contribution snake"
-          add: "assets/github-contribution-grid-snake.svg"
+          add: "assets/github-contribution-grid-snake2.svg"
           default_author: github_actions
           push: true
