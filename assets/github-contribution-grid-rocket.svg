@@ -43,7 +43,7 @@
               x="0" y="0" 
               width="12" height="12"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="0" y="16" 
               width="12" height="12"/>
       
@@ -71,7 +71,7 @@
               x="16" y="0" 
               width="12" height="12"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="16" y="16" 
               width="12" height="12"/>
       
