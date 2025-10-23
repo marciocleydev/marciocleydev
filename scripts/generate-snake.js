@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import { get } from 'https';
 
-// CONFIGURAÇÕES - MUDE AQUI PARA PERSONALIZAR
+// CONFIGURAÇÕES
 const CONFIG = {
   username: 'marciocleydev',
   theme: 'rocket', // 'snake', 'rocket', 'pacman', 'dinosaur'
@@ -12,52 +12,19 @@ const CONFIG = {
     rocket: '#ff6b6b',
     pacman: '#ffd93d',
     dinosaur: '#4ecdc4'
-  },
-  animation: {
-    duration: '15s',
-    style: 'smooth'
   }
 };
 
-// Buscar dados reais do GitHub
-async function getGitHubData() {
-  return new Promise((resolve, reject) => {
-    const options = {
-      hostname: 'api.github.com',
-      path: `/users/${CONFIG.username}/events`,
-      headers: {
-        'User-Agent': 'Node.js-Snake-Generator'
-      }
-    };
-
-    get(options, (res) => {
-      let data = '';
-      res.on('data', (chunk) => data += chunk);
-      res.on('end', () => {
-        try {
-          const events = JSON.parse(data);
-          resolve(events);
-        } catch (e) {
-          // Fallback para dados de exemplo se a API falhar
-          resolve(generateSampleData());
-        }
-      });
-    }).on('error', () => {
-      resolve(generateSampleData());
-    });
-  });
-}
-
 function generateSampleData() {
-  // Gera dados de exemplo baseados em padrões
   const events = [];
   const today = new Date();
   
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 365; i++) {
     const date = new Date(today);
     date.setDate(date.getDate() - i);
     
-    if (Math.random() > 0.3) { // 70% de chance de ter atividade
+    const activityLevel = Math.floor(Math.random() * 5);
+    for (let j = 0; j < activityLevel; j++) {
       events.push({
         created_at: date.toISOString(),
         type: 'PushEvent'
@@ -68,25 +35,25 @@ function generateSampleData() {
   return events;
 }
 
-function generateGrid(contributionsData) {
+function generateGrid() {
   let gridHTML = '';
-  const cellSize = 12;
-  const spacing = 16;
+  const cellSize = 11;
+  const spacing = 13;
+  const weeks = 53;
+  const days = 7;
   
-  // Gerar grid 7x52 (semanas x dias)
-  for (let week = 0; week < 52; week++) {
-    for (let day = 0; day < 7; day++) {
+  for (let week = 0; week < weeks; week++) {
+    for (let day = 0; day < days; day++) {
       const x = week * spacing;
       const y = day * spacing;
       
-      // Determinar nível de contribuição baseado nos dados
-      const contribLevel = calculateContributionLevel(week, day, contributionsData);
+      const contribLevel = Math.floor(Math.random() * 5);
       const contribClass = contribLevel > 0 ? `contrib-${contribLevel}` : '';
       
       gridHTML += `
         <rect class="grid-cell ${contribClass}" 
               x="${x}" y="${y}" 
-              width="${cellSize}" height="${cellSize}"/>
+              width="${cellSize}" height="${cellSize}" rx="2" ry="2"/>
       `;
     }
   }
@@ -94,80 +61,65 @@ function generateGrid(contributionsData) {
   return gridHTML;
 }
 
-function calculateContributionLevel(week, day, events) {
-  // Lógica simplificada para determinar nível de contribuição
-  const today = new Date();
-  const targetDate = new Date(today);
-  targetDate.setDate(targetDate.getDate() - (week * 7 + day));
-  
-  const dayEvents = events.filter(event => {
-    const eventDate = new Date(event.created_at);
-    return eventDate.toDateString() === targetDate.toDateString();
-  });
-  
-  const eventCount = dayEvents.length;
-  
-  if (eventCount === 0) return 0;
-  if (eventCount <= 2) return 1;
-  if (eventCount <= 4) return 2;
-  if (eventCount <= 6) return 3;
-  return 4;
-}
-
-// GERADORES DE PERSONAGENS
+// GERADORES DE PERSONAGENS - POSIÇÕES CORRIGIDAS
 function generateSnake() {
   return `
-    <rect x="30" y="30" width="16" height="16" rx="4" ry="4" class="pulse"/>
-    <rect x="20" y="32" width="12" height="12" rx="3" ry="3" opacity="0.8"/>
-    <rect x="10" y="34" width="10" height="10" rx="2" ry="2" opacity="0.6"/>
-    <circle cx="38" cy="38" r="2" fill="white"/>
+    <!-- Cabeça da snake -->
+    <rect x="400" y="45" width="14" height="14" rx="3" ry="3" fill="${CONFIG.colors.snake}"/>
+    <!-- Corpo -->
+    <rect x="385" y="47" width="12" height="10" rx="2" ry="2" fill="${CONFIG.colors.snake}" opacity="0.8"/>
+    <rect x="370" y="49" width="10" height="8" rx="2" ry="2" fill="${CONFIG.colors.snake}" opacity="0.6"/>
   `;
 }
 
 function generateRocket() {
   return `
-    <path d="M35,35 L45,30 L35,25 Z" class="pulse"/>
-    <rect x="33" y="28" width="4" height="4" rx="1" ry="1" fill="white" opacity="0.8"/>
-    <circle cx="35" cy="30" r="1" fill="white"/>
-    <path d="M25,30 L35,28 L35,32 Z" fill="${CONFIG.colors.rocket}" opacity="0.7"/>
+    <!-- Corpo do foguete -->
+    <path d="M400,50 L410,45 L400,40 Z" fill="${CONFIG.colors.rocket}"/>
+    <!-- Janela -->
+    <circle cx="403" cy="45" r="2" fill="#87CEEB"/>
+    <!-- Asas -->
+    <path d="M400,42 L395,40 L400,38 Z" fill="${CONFIG.colors.rocket}" opacity="0.8"/>
+    <path d="M400,52 L395,50 L400,48 Z" fill="${CONFIG.colors.rocket}" opacity="0.8"/>
     <!-- Chamas -->
-    <path d="M25,28 L20,25 L25,22 Z" fill="#ffa726" opacity="0.8"/>
-    <path d="M25,32 L20,35 L25,38 Z" fill="#ffa726" opacity="0.8"/>
+    <path d="M395,45 L385,42 L395,39 Z" fill="#FFA500" opacity="0.9"/>
+    <path d="M395,45 L385,48 L395,51 Z" fill="#FF4500" opacity="0.9"/>
   `;
 }
 
 function generatePacman() {
   return `
-    <circle cx="35" cy="30" r="10" fill="${CONFIG.colors.pacman}" class="pulse"/>
+    <!-- Corpo do Pacman -->
+    <circle cx="400" cy="45" r="12" fill="${CONFIG.colors.pacman}"/>
     <!-- Boca -->
-    <path d="M35,30 L45,20 L45,40 Z" fill="black"/>
+    <path d="M400,45 L412,35 L412,55 Z" fill="black"/>
     <!-- Olho -->
-    <circle cx="38" cy="25" r="1.5" fill="black"/>
+    <circle cx="404" cy="40" r="2" fill="black"/>
   `;
 }
 
 function generateDinosaur() {
   return `
     <!-- Corpo -->
-    <rect x="30" y="25" width="14" height="10" rx="3" ry="3" class="pulse"/>
+    <rect x="395" y="40" width="16" height="12" rx="3" ry="3" fill="${CONFIG.colors.dinosaur}"/>
     <!-- Pernas -->
-    <rect x="28" y="35" width="6" height="12" rx="2" ry="2"/>
-    <rect x="40" y="35" width="6" height="12" rx="2" ry="2"/>
-    <!-- Pescoço e cabeça -->
-    <rect x="38" y="18" width="8" height="10" rx="2" ry="2"/>
-    <rect x="44" y="15" width="6" height="6" rx="2" ry="2"/>
+    <rect x="393" y="52" width="5" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
+    <rect x="408" y="52" width="5" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
+    <!-- Pescoço -->
+    <rect x="407" y="35" width="6" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
+    <!-- Cabeça -->
+    <rect x="411" y="30" width="8" height="8" rx="2" ry="2" fill="${CONFIG.colors.dinosaur}"/>
     <!-- Olho -->
-    <circle cx="47" cy="18" r="1" fill="white"/>
+    <circle cx="416" cy="34" r="1" fill="white"/>
   `;
 }
 
-function generateSnakeSVG(contributionsData) {
-  const { theme, colors, animation } = CONFIG;
+function generateSnakeSVG() {
+  const { theme, colors } = CONFIG;
   const primaryColor = colors[theme] || colors.snake;
   
   let characterSVG = '';
 
-  // CORREÇÃO: Switch statement funcionando corretamente
   switch (theme) {
     case 'rocket':
       characterSVG = generateRocket();
@@ -179,11 +131,11 @@ function generateSnakeSVG(contributionsData) {
       characterSVG = generateDinosaur();
       break;
     case 'snake':
-    default: // snake como padrão
+    default:
       characterSVG = generateSnake();
   }
 
-  const gridSVG = generateGrid(contributionsData);
+  const gridSVG = generateGrid();
   
   return `
 <svg width="880" height="185" xmlns="http://www.w3.org/2000/svg">
@@ -192,8 +144,6 @@ function generateSnakeSVG(contributionsData) {
       fill: ${colors.background}; 
       stroke: #1b1f23; 
       stroke-width: 0.5; 
-      rx: 2; 
-      ry: 2; 
     }
     .contrib-1 { fill: ${colors.grid[0]}; }
     .contrib-2 { fill: ${colors.grid[1]}; }
@@ -201,25 +151,15 @@ function generateSnakeSVG(contributionsData) {
     .contrib-4 { fill: ${colors.grid[3]}; }
     
     .character {
-      fill: ${primaryColor};
-      animation: moveCharacter ${animation.duration} infinite ${animation.style};
+      animation: moveCharacter 20s ease-in-out infinite;
     }
     
     @keyframes moveCharacter {
-      0% { transform: translate(0, 0); opacity: 1; }
-      25% { transform: translate(400px, 80px); opacity: 0.9; }
-      50% { transform: translate(600px, 20px); opacity: 1; }
-      75% { transform: translate(200px, 120px); opacity: 0.9; }
-      100% { transform: translate(0, 0); opacity: 1; }
-    }
-    
-    .pulse {
-      animation: pulse 2s infinite;
-    }
-    
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.1); }
+      0% { transform: translate(0px, 0px); }
+      25% { transform: translate(300px, 30px); }
+      50% { transform: translate(600px, 0px); }
+      75% { transform: translate(300px, -30px); }
+      100% { transform: translate(0px, 0px); }
     }
   </style>
   
@@ -232,13 +172,6 @@ function generateSnakeSVG(contributionsData) {
   <g class="character">
     ${characterSVG}
   </g>
-  
-  <!-- Efeitos Especiais -->
-  <g class="pulse">
-    <circle cx="50" cy="50" r="3" fill="${primaryColor}" opacity="0.6"/>
-    <circle cx="800" cy="120" r="2" fill="${primaryColor}" opacity="0.4"/>
-    <circle cx="300" cy="80" r="2" fill="${primaryColor}" opacity="0.5"/>
-  </g>
 </svg>
   `;
 }
@@ -246,13 +179,11 @@ function generateSnakeSVG(contributionsData) {
 // EXECUÇÃO PRINCIPAL
 async function main() {
   try {
-    console.log('🔄 Buscando dados do GitHub...');
-    const githubData = await getGitHubData();
-    
     console.log('🎨 Gerando animação...');
-    const svgContent = generateSnakeSVG(githubData);
     
-    // NOME DO ARQUIVO BASEADO NO TEMA
+    const sampleData = generateSampleData();
+    const svgContent = generateSnakeSVG(sampleData);
+    
     const fileName = `assets/github-contribution-grid-${CONFIG.theme}.svg`;
     
     console.log('💾 Salvando arquivo...');
@@ -261,7 +192,6 @@ async function main() {
     console.log('✅ Animação gerada com sucesso!');
     console.log(`🎯 Tema: ${CONFIG.theme}`);
     console.log(`📁 Arquivo: ${fileName}`);
-    console.log(`🎨 Cor principal: ${CONFIG.colors[CONFIG.theme]}`);
     
   } catch (error) {
     console.error('❌ Erro:', error.message);
