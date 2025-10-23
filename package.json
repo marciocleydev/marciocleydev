@@ -1,0 +1,7 @@
+{
+  "name": "github-snake-generator",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-snake.js"
+  }
+}
