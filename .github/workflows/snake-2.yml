@@ -1,35 +1,42 @@
-name: Generate Advanced Snake Animation 2
-
-permissions:
-  contents: write
+name: Generate Snake Animation
 
 on:
-  workflow_dispatch:
   schedule:
+    # Runs at 00:00 UTC every day
     - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 5
+
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # IMPORTANTE: Busca todo o histórico
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
 
-      - name: Generate Snake Animation
+      - name: Generate SVG
         run: node scripts/generate-snake.js
-      
-      - name: Deploy to Repository
+
+      - name: Pull latest changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase origin main  # IMPORTANTE: Atualiza antes de commitar
+
+      - name: Commit and push
+        run: |
           git add assets/github-contribution-grid-*.svg
-          git commit -m "chore: update ${{ github.event.repository.name }} animation" || exit 0
+          git diff --staged --quiet || git commit -m "chore: update contribution animation"
           git push
