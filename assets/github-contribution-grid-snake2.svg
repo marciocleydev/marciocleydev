@@ -1,22 +1,211 @@
+<svg viewBox="-16 -32 880 192" width="880" height="192" xmlns="http://www.w3.org/2000/svg">
 <style>
-/* Versão ultra-simplificada */
-.c-animated {
-  fill: #40c463;
-  animation: breathe 3s ease-in-out infinite;
+:root {
+  --cb: #1b1f23;
+  --cs: #216e39;
+  --ce: #ebedf0;
+  --c0: #ebedf0;
+  --c1: #9be9a8;
+  --c2: #40c463;
+  --c3: #30a14e;
+  --c4: #216e39;
 }
 
-@keyframes breathe {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(0.95); }
+/* Células do grid */
+.c {
+  shape-rendering: geometricPrecision;
+  fill: var(--ce);
+  stroke-width: 1px;
+  stroke: var(--cb);
+  width: 12px;
+  height: 12px;
+  rx: 2;
+  ry: 2;
 }
 
-.snake-simple {
-  fill: purple;
-  animation: wander 15s linear infinite;
+/* Células com contribuições - cores animadas */
+.c.contrib {
+  animation: pulseColor 3s ease-in-out infinite;
 }
 
-@keyframes wander {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(800px, 100px); }
+.c.l1 { fill: var(--c1); animation-delay: 0s; }
+.c.l2 { fill: var(--c2); animation-delay: 0.5s; }
+.c.l3 { fill: var(--c3); animation-delay: 1s; }
+.c.l4 { fill: var(--c4); animation-delay: 1.5s; }
+
+@keyframes pulseColor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Célula sendo "comida" pela snake */
+.c.eaten {
+  animation: eatCell 0.5s ease-out forwards;
+}
+
+@keyframes eatCell {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+  100% { transform: scale(0); opacity: 0; }
+}
+
+/* Snake animation */
+.snake {
+  fill: var(--cs);
+  animation: snakeMove 20s linear infinite;
+}
+
+.snake-head {
+  rx: 4;
+  ry: 4;
+  animation: snakeHead 0.3s ease-in-out infinite alternate;
+}
+
+.snake-body {
+  rx: 3;
+  ry: 3;
+  opacity: 0.8;
+}
+
+@keyframes snakeMove {
+  0% { transform: translate(0px, 0px); }
+  5% { transform: translate(80px, 0px); }
+  10% { transform: translate(160px, 0px); }
+  15% { transform: translate(240px, 0px); }
+  20% { transform: translate(320px, 0px); }
+  25% { transform: translate(400px, 0px); }
+  30% { transform: translate(480px, 0px); }
+  35% { transform: translate(560px, 0px); }
+  40% { transform: translate(560px, 80px); }
+  45% { transform: translate(480px, 80px); }
+  50% { transform: translate(400px, 80px); }
+  55% { transform: translate(320px, 80px); }
+  60% { transform: translate(320px, 160px); }
+  65% { transform: translate(400px, 160px); }
+  70% { transform: translate(480px, 160px); }
+  75% { transform: translate(560px, 160px); }
+  80% { transform: translate(560px, 80px); }
+  85% { transform: translate(640px, 80px); }
+  90% { transform: translate(720px, 80px); }
+  95% { transform: translate(800px, 80px); }
+  100% { transform: translate(800px, 0px); }
+}
+
+@keyframes snakeHead {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+
+/* Barra de progresso */
+.progress {
+  fill: var(--c2);
+  animation: progressGrow 20s linear infinite;
+  transform-origin: left center;
+}
+
+@keyframes progressGrow {
+  0% { transform: scaleX(0); }
+  100% { transform: scaleX(1); }
 }
 </style>
+
+<!-- Grid de contribuições -->
+<g id="contributions-grid">
+  <!-- Primeira linha -->
+  <rect class="c" x="2" y="2"/>
+  <rect class="c" x="18" y="2"/>
+  <rect class="c contrib l2" x="34" y="2"/>
+  <rect class="c contrib l3" x="50" y="2"/>
+  <rect class="c contrib l4" x="66" y="2"/>
+  <rect class="c contrib l3" x="82" y="2"/>
+  <rect class="c contrib l2" x="98" y="2"/>
+  <rect class="c" x="114" y="2"/>
+  
+  <!-- Segunda linha -->
+  <rect class="c contrib l1" x="2" y="18"/>
+  <rect class="c contrib l2" x="18" y="18"/>
+  <rect class="c contrib l3" x="34" y="18"/>
+  <rect class="c contrib l4" x="50" y="18"/>
+  <rect class="c contrib l4" x="66" y="18"/>
+  <rect class="c contrib l3" x="82" y="18"/>
+  <rect class="c contrib l2" x="98" y="18"/>
+  <rect class="c contrib l1" x="114" y="18"/>
+  
+  <!-- Terceira linha -->
+  <rect class="c" x="2" y="34"/>
+  <rect class="c contrib l1" x="18" y="34"/>
+  <rect class="c contrib l2" x="34" y="34"/>
+  <rect class="c contrib l3" x="50" y="34"/>
+  <rect class="c contrib l3" x="66" y="34"/>
+  <rect class="c contrib l2" x="82" y="34"/>
+  <rect class="c contrib l1" x="98" y="34"/>
+  <rect class="c" x="114" y="34"/>
+  
+  <!-- Continue com mais linhas... -->
+  <rect class="c contrib l1" x="130" y="2"/>
+  <rect class="c contrib l2" x="146" y="2"/>
+  <rect class="c contrib l3" x="162" y="18"/>
+  <rect class="c contrib l4" x="178" y="34"/>
+  <rect class="c contrib l3" x="194" y="50"/>
+  <rect class="c contrib l2" x="210" y="66"/>
+  <rect class="c contrib l1" x="226" y="82"/>
+  
+  <!-- Área principal com mais contribuições -->
+  <rect class="c contrib l2" x="242" y="18"/>
+  <rect class="c contrib l3" x="258" y="34"/>
+  <rect class="c contrib l4" x="274" y="50"/>
+  <rect class="c contrib l4" x="290" y="66"/>
+  <rect class="c contrib l3" x="306" y="82"/>
+  <rect class="c contrib l2" x="322" y="98"/>
+  <rect class="c contrib l1" x="338" y="82"/>
+  
+  <rect class="c contrib l3" x="354" y="66"/>
+  <rect class="c contrib l4" x="370" y="50"/>
+  <rect class="c contrib l4" x="386" y="34"/>
+  <rect class="c contrib l3" x="402" y="18"/>
+  <rect class="c contrib l2" x="418" y="2"/>
+  
+  <!-- Mais contribuições no caminho da snake -->
+  <rect class="c contrib l1" x="434" y="18"/>
+  <rect class="c contrib l2" x="450" y="34"/>
+  <rect class="c contrib l3" x="466" y="50"/>
+  <rect class="c contrib l4" x="482" y="66"/>
+  <rect class="c contrib l3" x="498" y="82"/>
+  <rect class="c contrib l2" x="514" y="98"/>
+  <rect class="c contrib l1" x="530" y="82"/>
+  
+  <rect class="c contrib l2" x="546" y="66"/>
+  <rect class="c contrib l3" x="562" y="50"/>
+  <rect class="c contrib l4" x="578" y="34"/>
+  <rect class="c contrib l3" x="594" y="18"/>
+  <rect class="c contrib l2" x="610" y="2"/>
+  
+  <!-- Fim do percurso -->
+  <rect class="c contrib l1" x="626" y="18"/>
+  <rect class="c contrib l2" x="642" y="34"/>
+  <rect class="c contrib l3" x="658" y="50"/>
+  <rect class="c contrib l4" x="674" y="66"/>
+  <rect class="c contrib l3" x="690" y="82"/>
+  <rect class="c contrib l2" x="706" y="98"/>
+  <rect class="c contrib l1" x="722" y="82"/>
+  <rect class="c contrib l2" x="738" y="66"/>
+  <rect class="c contrib l3" x="754" y="50"/>
+  <rect class="c contrib l4" x="770" y="34"/>
+  <rect class="c contrib l3" x="786" y="18"/>
+  <rect class="c contrib l2" x="802" y="2"/>
+</g>
+
+<!-- Snake -->
+<g class="snake">
+  <!-- Cabeça da snake -->
+  <rect class="snake-head" x="0" y="0" width="16" height="16"/>
+  <!-- Corpo da snake (segmentos) -->
+  <rect class="snake-body" x="-4" y="2" width="12" height="12"/>
+  <rect class="snake-body" x="-8" y="4" width="10" height="10"/>
+  <rect class="snake-body" x="-12" y="6" width="8" height="8"/>
+</g>
+
+<!-- Barra de progresso -->
+<rect class="progress" x="0" y="144" width="848" height="12" rx="2" ry="2"/>
+
+</svg>
