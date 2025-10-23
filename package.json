@@ -1,7 +1,6 @@
 {
-  "name": "github-snake-generator",
-  "type": "module",
-  "scripts": {
-    "generate": "node scripts/generate-snake.js"
-  }
+  "name": "github-snake",
+  "version": "1.0.0",
+  "description": "GitHub contributions snake animation",
+  "type": "module"
 }
