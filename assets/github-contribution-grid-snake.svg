@@ -14,7 +14,7 @@
     .contrib-4 { fill: #216e39; }
     
     .character {
-      fill: #216e39;
+      fill: #ff6b6b;
       animation: moveCharacter 15s infinite smooth;
     }
     
@@ -91,11 +91,11 @@
               x="16" y="80" 
               width="12" height="12"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="16" y="96" 
               width="12" height="12"/>
       
-        <rect class="grid-cell contrib-1" 
+        <rect class="grid-cell " 
               x="32" y="0" 
               width="12" height="12"/>
       
@@ -1500,18 +1500,18 @@
   <!-- Personagem Animado -->
   <g class="character">
     
-    <rect x="30" y="30" width="16" height="16" rx="4" ry="4" class="pulse"/>
-    <rect x="20" y="32" width="12" height="12" rx="3" ry="3" opacity="0.8"/>
-    <rect x="10" y="34" width="10" height="10" rx="2" ry="2" opacity="0.6"/>
-    <circle cx="38" cy="38" r="2" fill="white"/>
+    <path d="M35,35 L45,30 L35,25 Z" class="pulse"/>
+    <rect x="33" y="28" width="4" height="4" rx="1" ry="1"/>
+    <circle cx="35" cy="30" r="1" fill="white"/>
+    <path d="M25,30 L35,28 L35,32 Z" fill="#ff6b6b" opacity="0.7"/>
   
   </g>
   
   <!-- Efeitos Especiais -->
   <g class="pulse">
-    <circle cx="50" cy="50" r="3" fill="#216e39" opacity="0.6"/>
-    <circle cx="800" cy="120" r="2" fill="#216e39" opacity="0.4"/>
-    <circle cx="300" cy="80" r="2" fill="#216e39" opacity="0.5"/>
+    <circle cx="50" cy="50" r="3" fill="#ff6b6b" opacity="0.6"/>
+    <circle cx="800" cy="120" r="2" fill="#ff6b6b" opacity="0.4"/>
+    <circle cx="300" cy="80" r="2" fill="#ff6b6b" opacity="0.5"/>
   </g>
 </svg>
   
