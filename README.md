@@ -11,27 +11,17 @@ I build RESTful APIs applying clean architecture, good practices, and clear docu
 
 I have hands-on experience with:
 
-Content Negotiation, DTO mappers (MapStruct) and pagination/search
-
-JPA/Hibernate for entity relationships and persistence
-
-Database versioning with Flyway
-
-File upload/download, including Excel data import/export
-
-Report generation with JasperReports
-
-Email sending workflows
-
-Testing with JUnit & Mockito
-
-Security with JWT authentication
-
-API documentation with Swagger / OpenAPI
-
-CORS handling and environments managed through Docker
-
-GitHub Actions for automation and AWS deployment
+- Content Negotiation, DTO mappers (MapStruct) and pagination/search
+- JPA/Hibernate for entity relationships and persistence
+- Database versioning with Flyway
+- File upload/download, including Excel data import/export
+- Report generation with JasperReports
+- Email sending workflows
+- Testing with JUnit & Mockito
+- Security with JWT authentication
+- API documentation with Swagger / OpenAPI
+- CORS handling and environments managed through Docker
+- GitHub Actions for automation and AWS deployment
 
 I work daily with tools like Postman, Git/GitHub, Maven, MySQL, and H2, keeping development workflow clean, consistent, and maintainable.
 
