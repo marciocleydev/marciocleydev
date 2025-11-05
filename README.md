@@ -18,16 +18,55 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 
 ## 🚀 Technologies and Tools
 
-🚀 Back-end
-<p align="left"> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/java/java-icon.svg" title="Java" alt="Java" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" title="Spring Boot" alt="Spring Boot" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg" title="Hibernate / JPA" alt="Hibernate" /> <img width="25" height="25" src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_maven.svg" title="Maven" alt="Maven" /> </p>
-🗄️ Databases
-<p align="left"> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" title="MySQL" alt="MySQL"/> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/h2/h2-original.svg" title="H2 Database" alt="H2" /> </p>
-🧰 Tools & Cloud
-<p align="left"> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git" alt="Git" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/github/github-icon.svg" title="GitHub" alt="GitHub" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman" alt="Postman" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/swagger/swagger-icon.svg" title="Swagger / OpenAPI" alt="Swagger / OpenAPI" /> <img width="25" height="25" src="https://raw.githubusercontent.com/leandrocgsi/leandrocgsi/2331dded51784b78b8b66fd83037b2f2e28943e3/svg_logos/docker_logo.svg" title="Docker" alt="Docker" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" title="AWS" alt="AWS" /> </p>
-🎨 Front-end (Básico)
-<p align="left"> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" /> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS" /> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" /> </p>
-🧑‍💻 IDEs
-<p align="left"> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/jetbrains/jetbrains-icon.svg" title="IntelliJ IDEA" alt="IntelliJ IDEA" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/eclipse/eclipse-icon.svg" title="Eclipse" alt="Eclipse" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" title="VS Code" alt="VS Code" /> </p>
+### 🚀 Back-end
+<p align="left">
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/java/java-icon.svg" title="Java" alt="Java" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" title="Spring Boot" alt="Spring Boot" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg" title="Hibernate / JPA" alt="Hibernate" />
+  <img width="25" height="25" src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_maven.svg" title="Maven" alt="Maven" />
+</p>
+
+---
+
+### 🗄️ Databases
+<p align="left">
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" title="MySQL" alt="MySQL" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" title="PostgreSQL" alt="PostgreSQL" />
+  <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/h2/h2-original.svg" title="H2 Database" alt="H2"
+       onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/leandrocgsi/leandrocgsi/main/svg_logos/h2.svg';" />
+</p>
+
+---
+
+### 🧰 Tools & Cloud
+<p align="left">
+  <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git" alt="Git" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/github/github-icon.svg" title="GitHub" alt="GitHub" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman" alt="Postman" />
+  <img width="25" height="25" src="https://raw.githubusercontent.com/swagger-api/artwork/master/logo.png" title="Swagger / OpenAPI" alt="Swagger / OpenAPI"
+       onerror="this.onerror=null;this.src='https://www.vectorlogo.zone/logos/swagger/swagger-icon.svg';" />
+  <img width="25" height="25" src="https://raw.githubusercontent.com/leandrocgsi/leandrocgsi/2331dded51784b78b8b66fd83037b2f2e28943e3/svg_logos/docker_logo.svg" title="Docker" alt="Docker" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" title="AWS" alt="AWS" />
+</p>
+
+---
+
+### 🎨 Front-end (Básico)
+<p align="left">
+  <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" />
+  <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS" />
+  <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" />
+</p>
+
+---
+
+### 🧑‍💻 IDEs
+<p align="left">
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/jetbrains/jetbrains-icon.svg" title="IntelliJ IDEA" alt="IntelliJ IDEA" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/eclipse/eclipse-icon.svg" title="Eclipse" alt="Eclipse" />
+  <img width="25" height="25" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" title="VS Code" alt="VS Code" />
+</p>
+
 ---
 
 ## 📚 Currently Learning
