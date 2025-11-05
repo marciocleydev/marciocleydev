@@ -6,13 +6,36 @@
 
 ## 👨‍💻 About Me
 
-I am a final-semester Systems Analysis and Development student transitioning from industry to software development, with a strong focus on back-end development using Java and the Spring ecosystem.
+Back-end developer focused on Java and the Spring Boot ecosystem.
+I build RESTful APIs applying clean architecture, good practices, and clear documentation.
 
-I have solid knowledge of Java, Spring Boot, JPA/Hibernate, MySQL, H2 Database, Maven, and Postman, as well as basic skills in HTML, CSS, and JavaScript. My main expertise is in building RESTful APIs, implementing CRUD operations, designing entity relationships, and handling exceptions following best practices and clean architecture principles.
+I have hands-on experience with:
 
-I am currently specializing in microservices architecture, including advanced topics such as Spring Cloud, Spring Security, API Gateway, service communication patterns, and cloud deployment — aiming to deliver scalable, maintainable, and resilient solutions.
+Content Negotiation, DTO mappers (MapStruct) and pagination/search
 
-I am seeking opportunities to contribute as a Java Back-End Developer, building efficient, secure, and scalable solutions while continuing to grow professionally within the Spring Boot and microservices ecosystem.
+JPA/Hibernate for entity relationships and persistence
+
+Database versioning with Flyway
+
+File upload/download, including Excel data import/export
+
+Report generation with JasperReports
+
+Email sending workflows
+
+Testing with JUnit & Mockito
+
+Security with JWT authentication
+
+API documentation with Swagger / OpenAPI
+
+CORS handling and environments managed through Docker
+
+GitHub Actions for automation and AWS deployment
+
+I work daily with tools like Postman, Git/GitHub, Maven, MySQL, and H2, keeping development workflow clean, consistent, and maintainable.
+
+Currently seeking opportunities as a Java Back-End Developer, building efficient, secure, and scalable solutions while continuing to evolve within the Spring Boot ecosystem.
 
 ---
 
