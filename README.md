@@ -81,13 +81,6 @@ Currently seeking opportunities as a Java Back-End Developer, building efficient
 
 ---
 
-## 📂 Featured Projects
-
-- [**Workshop Spring Boot JPA/Hibernate/MySQL**](https://github.com/marciocleydev/workshop_springBoot_jpa_2.0) — REST API developed in Java using Spring Boot, JPA/Hibernate, and H2/MySQL databases. Implements CRUD operations, entity relationships, exception handling, and layered architecture.
-
-*📌 Explore more projects in my [repositories](https://github.com/marciocleydev?tab=repositories)*
-
----
 
 ## 📫 Connect With Me
 
