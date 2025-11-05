@@ -18,32 +18,16 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 
 ## 🚀 Technologies and Tools
 
-### **Back-end**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-007396?style=for-the-badge&logo=java&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-
-### **Databases**
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![H2 Database](https://img.shields.io/badge/H2-1F72B5?style=for-the-badge&logo=h2&logoColor=white)
-
-### **Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-### **Front-end (Basic)**
-![HTML5](https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### **IDEs**
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Eclipse](https://img.shields.io/badge/EclipseIDE-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
+🚀 Back-end
+<p align="left"> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/java/java-icon.svg" title="Java" alt="Java" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" title="Spring Boot" alt="Spring Boot" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg" title="Hibernate / JPA" alt="Hibernate" /> <img width="25" height="25" src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_maven.svg" title="Maven" alt="Maven" /> </p>
+🗄️ Databases
+<p align="left"> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" title="MySQL" alt="MySQL"/> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/h2/h2-original.svg" title="H2 Database" alt="H2" /> </p>
+🧰 Tools & Cloud
+<p align="left"> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git" alt="Git" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/github/github-icon.svg" title="GitHub" alt="GitHub" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman" alt="Postman" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/swagger/swagger-icon.svg" title="Swagger / OpenAPI" alt="Swagger / OpenAPI" /> <img width="25" height="25" src="https://raw.githubusercontent.com/leandrocgsi/leandrocgsi/2331dded51784b78b8b66fd83037b2f2e28943e3/svg_logos/docker_logo.svg" title="Docker" alt="Docker" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" title="AWS" alt="AWS" /> </p>
+🎨 Front-end (Básico)
+<p align="left"> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" /> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS" /> <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" /> </p>
+🧑‍💻 IDEs
+<p align="left"> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/jetbrains/jetbrains-icon.svg" title="IntelliJ IDEA" alt="IntelliJ IDEA" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/eclipse/eclipse-icon.svg" title="Eclipse" alt="Eclipse" /> <img width="25" height="25" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" title="VS Code" alt="VS Code" /> </p>
 ---
 
 ## 📚 Currently Learning
