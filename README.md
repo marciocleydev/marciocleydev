@@ -23,7 +23,7 @@ I have hands-on experience with:
 - CORS handling and environments managed through Docker
 - GitHub Actions for automation and AWS deployment
 
-I work daily with tools like Postman, Git/GitHub, Maven, MySQL, and H2, keeping development workflow clean, consistent, and maintainable.
+I work daily with tools like Postman, Git/GitHub, Maven, MySQL, and postgresSQL, keeping development workflow clean, consistent, and maintainable.
 
 Currently seeking opportunities as a Java Back-End Developer, building efficient, secure, and scalable solutions while continuing to evolve within the Spring Boot ecosystem.
 
