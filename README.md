@@ -32,7 +32,7 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 <p align="left">
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" title="MySQL" alt="MySQL" />
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" title="PostgreSQL" alt="PostgreSQL" />
-  <img width="25" height="25" src="https://upload.wikimedia.org/wikipedia/commons/8/87/H2_logo.svg" title="H2 Database" alt="H2" />
+  <img src="https://img.shields.io/badge/H2%20Console-007ACC?style=for-the-badge&logo=databricks&logoColor=white" />
 </p>
 
 ---
