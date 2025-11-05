@@ -32,8 +32,7 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
 <p align="left">
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" title="MySQL" alt="MySQL" />
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" title="PostgreSQL" alt="PostgreSQL" />
-  <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/h2/h2-original.svg" title="H2 Database" alt="H2"
-       onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/leandrocgsi/leandrocgsi/main/svg_logos/h2.svg';" />
+  <img width="25" height="25" src="https://upload.wikimedia.org/wikipedia/commons/8/87/H2_logo.svg" title="H2 Database" alt="H2" />
 </p>
 
 ---
@@ -43,8 +42,7 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
   <img width="25" height="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="Git" alt="Git" />
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/github/github-icon.svg" title="GitHub" alt="GitHub" />
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman" alt="Postman" />
-  <img width="25" height="25" src="https://raw.githubusercontent.com/swagger-api/artwork/master/logo.png" title="Swagger / OpenAPI" alt="Swagger / OpenAPI"
-       onerror="this.onerror=null;this.src='https://www.vectorlogo.zone/logos/swagger/swagger-icon.svg';" />
+  <img width="25" height="25" src="https://camo.githubusercontent.com/76dab3bd8235a1b92a59fb95416d1e7ded6656a49c2991216998996323f66379/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6f70656e617069732f6f70656e617069732d69636f6e2e737667" title="Swagger / OpenAPI" alt="Swagger / OpenAPI" />
   <img width="25" height="25" src="https://raw.githubusercontent.com/leandrocgsi/leandrocgsi/2331dded51784b78b8b66fd83037b2f2e28943e3/svg_logos/docker_logo.svg" title="Docker" alt="Docker" />
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" title="AWS" alt="AWS" />
 </p>
@@ -66,6 +64,7 @@ I am seeking opportunities to contribute as a Java Back-End Developer, building 
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/eclipse/eclipse-icon.svg" title="Eclipse" alt="Eclipse" />
   <img width="25" height="25" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" title="VS Code" alt="VS Code" />
 </p>
+
 
 ---
 
