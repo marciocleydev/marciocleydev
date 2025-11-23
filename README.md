@@ -113,4 +113,4 @@ Currently seeking opportunities as a Java Back-End Developer, building efficient
 
 ---
 
-📈 _"Always evolving, with purpose and passion for technology!"_-
+📈 _"Always evolving, with purpose and passion for technology!"_
